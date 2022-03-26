@@ -21,3 +21,12 @@ function isToday(date) {
 var summation = function (num) {
   return num ? num + summation(num - 1) : num
 }
+
+//8 kyu Will you make it?
+
+const zeroFuel = (distanceToPump, mpg, fuelLeft) =>
+distanceToPump <= mpg * fuelLeft ? true : false
+
+//8 kyu Parse nice int from char problem
+
+const getAge = (inputString) => Number(inputString[0])
