@@ -30,3 +30,16 @@ distanceToPump <= mpg * fuelLeft ? true : false
 //8 kyu Parse nice int from char problem
 
 const getAge = (inputString) => Number(inputString[0])
+
+// 8 kyu Count by X
+
+function countBy(x, n) {
+    const z = []
+    const l = x * n
+
+    for (let i = 1; i <= l; i++) {
+        if (i % x === 0) z.push(i)
+    }
+
+    return z
+}
